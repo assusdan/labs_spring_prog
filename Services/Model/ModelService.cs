@@ -25,8 +25,7 @@ namespace Labs.Services.Model
             printService = ServicesManager.Instance.GetService(ServiceTypes.Printer);
 
             // DEBUG
-            Track track = new Track("Twisted Sister", "I Wanna Rock");
-            catalog = new CatalogModel(track);
+            catalog.Add("Twisted Sister", "I Wanna Rock");
             catalog.Add("Eduard Khil", "I Am So Happy to Finally Be Back Home");
         }
 
